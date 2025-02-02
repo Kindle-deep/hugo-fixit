@@ -3,10 +3,10 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "Hugo FixIt Blog"
-baseURL = "https://hugo-fixit.github.io/hugo-fixit-starter/"
+title = "Chinyuan Tai"
+baseURL = "https://www.knlde.top"
 # theme = "FixIt"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 languageCode = "en"
 hasCJKLanguage = true
 enableRobotsTXT = true

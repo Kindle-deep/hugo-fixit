@@ -6,9 +6,9 @@
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "This is my new Hugo FixIt site"
+description = "LOVE&PEACE"
 # site keywords
-keywords = ["Hugo", "FixIt"]
+keywords = ["Hugo", "FixIt", "ChinyuanTai", "Music", "Art", "Blog"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # which hash function used for SRI, when empty, no SRI is used
@@ -40,15 +40,15 @@ disableThemeInject = false
 
 # Author Configuration
 [author]
-  name = "Lruihao"
-  email = "1024@lruihao.cn"
-  link = "https://github.com/Lruihao"
-  avatar = ""
+  name = "Chinyuan Tai"
+  email = "chinyuan@knlde.top"
+  link = "https://www.knlde.top"
+  avatar = "https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/avatar.avif"
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
   # e.g. "https://github.com/hugo-fixit/docs"
-  repo = ""
+  repo = "https://github.com/Kindle-deep/hugo-fixit"
   branch = "main"
   # the content directory path relative to the root of the repository
   dir = "content"
@@ -59,11 +59,11 @@ disableThemeInject = false
 # App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Hugo FixIt Blog"
+  title = "Chinyuan Tai"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
-  svgFavicon = ""
+  svgFavicon = "https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/avatar.avif"
   # Safari mask icon color
   iconColor = "#5bbad5"
   # Windows v8-10 tile color
@@ -109,13 +109,13 @@ disableThemeInject = false
 # Header config
 [header]
   # FixIt 0.2.13 | CHANGED desktop header mode ["sticky", "normal", "auto"]
-  desktopMode = "sticky"
+  desktopMode = "normal"
   # FixIt 0.2.13 | CHANGED mobile header mode ["sticky", "normal", "auto"]
   mobileMode = "auto"
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/hugo-fixit-starter/images/fixit.min.svg"
+    logo = ""
     # title name
     name = ""
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -127,7 +127,7 @@ disableThemeInject = false
   # FixIt 0.2.12 | NEW Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = ""
+    name = "Blog"
     # whether to use typeit animation for subtitle name
     typeit = false
 
@@ -165,15 +165,15 @@ disableThemeInject = false
   # FixIt 0.3.0 | NEW whether to show Hugo and theme info
   [footer.powered]
     enable = true
-    hugoLogo = true
-    themeLogo = true
+    hugoLogo = false
+    themeLogo = false
   # FixIt 0.2.17 | CHANGED Site creation time
   [footer.siteTime]
-    enable = false
+    enable = true
     animate = true
     icon = "fa-solid fa-heartbeat"
     pre = ""
-    value = "" # e.g. "2021-12-18T16:15:22+08:00"
+    value = "2021-10-21T16:15:22+08:00" # e.g. "2021-12-18T16:15:22+08:00"
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
@@ -237,15 +237,15 @@ disableThemeInject = false
   [home.profile]
     enable = true
     # Gravatar Email for preferred avatar in home page
-    gravatarEmail = "xx@xx.com"
+    gravatarEmail = ""
     # URL of avatar shown in home page
-    avatarURL = ""
+    avatarURL = "https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/avatar.avif"
     # FixIt 0.2.17 | NEW identifier of avatar menu link
     avatarMenu = ""
     # title shown in home page (HTML format is supported)
     title = ""
     # subtitle shown in home page (HTML format is supported)
-    subtitle = "This is my new Hugo FixIt site"
+    subtitle = "LOVE&PEACE"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
@@ -260,12 +260,12 @@ disableThemeInject = false
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
-  GitHub = ""
+  GitHub = "Kindle-deep"
   Linkedin = ""
-  Twitter = ""
+  Twitter = "chinyuantai"
   Instagram = ""
   Facebook = ""
-  Telegram = ""
+  Telegram = "chinyuantai"
   Medium = ""
   Gitlab = ""
   Youtubelegacy = ""
@@ -327,7 +327,7 @@ disableThemeInject = false
   Ko-Fi = ""
   BuyMeaCoffee = ""
   Linktree = ""
-  QQ = ""
+  QQ = "1715640772"
   QQGroup = "" # https://qun.qq.com/join.html
   Diaspora = ""
   CSDN = ""
@@ -346,7 +346,7 @@ disableThemeInject = false
   TikTok = ""
   Credly = ""
   Phone = ""
-  Email = ""
+  Email = "chinyuan@knlde.top"
   RSS = true
   # custom social links like the following
   # [social.twitter]
@@ -397,7 +397,7 @@ disableThemeInject = false
 # FixIt 0.2.12 | NEW PanguJS config
 [pangu]
   # For Chinese writing
-  enable = false
+  enable = true
   selector = "article" # FixIt 0.2.17 | NEW
 
 # FixIt 0.2.12 | NEW Watermark config
@@ -426,7 +426,7 @@ disableThemeInject = false
 # FixIt 0.3.10 | NEW Busuanzi count
 [busuanzi]
   # whether to enable busuanzi count
-  enable = false
+  enable = true
   # busuanzi count core script source. Default is https://vercount.one/js
   source = "https://vercount.one/js"
   # whether to show the site views
@@ -479,7 +479,7 @@ disableThemeInject = false
   # CDN data file name, disabled by default ["jsdelivr.yml", "unpkg.yml", ...]
   # located in "themes/FixIt/assets/data/cdn/" directory
   # you can store your own data files in the same path under your project: "assets/data/cdn/"
-  data = ""
+  data = "jsdmirror.yml"
 
 # Compatibility config
 [compatibility]
@@ -498,7 +498,7 @@ disableThemeInject = false
 # FixIt 0.2.14 | NEW Gravatar config
 [gravatar]
   # FixIt 0.2.18 | NEW Depends on the author's email, if the author's email is not set, the local avatar will be used
-  enable = true
+  enable = false
   # Gravatar host, default: "www.gravatar.com"
   host = "www.gravatar.com" # ["cravatar.cn", "gravatar.loli.net", ...]
   style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
@@ -524,10 +524,10 @@ disableThemeInject = false
 # FixIt 0.2.17 | NEW Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 [pace]
-  enable = false
+  enable = true
   # All available colors:
   # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
-  color = "blue"
+  color = "black"
   # All available themes:
   # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
   # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
@@ -581,11 +581,11 @@ disableThemeInject = false
   # FixIt 0.3.10 | NEW whether to hide a page from RSS, Atom and JSON feed
   hiddenFromFeed = false
   # whether to enable twemoji
-  twemoji = false
+  twemoji = true
   # FixIt 0.2.18 | CHANGED whether to enable lightgallery
   # set to true, images in the content will be shown as the gallery if the image has a title, e.g. ![alt](src "title")
   # set to "force", images in the content will be forced to shown as the gallery regardless of the image has a title or not, e.g. ![alt](src)
-  lightgallery = false
+  lightgallery = true
   # whether to enable the ruby extended syntax
   ruby = true
   # whether to enable the fraction extended syntax
@@ -755,7 +755,7 @@ disableThemeInject = false
     Mix = false
   # FixIt 0.2.15 | CHANGED Comment config
   [page.comment]
-    enable = false
+    enable = true
     # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
     [page.comment.artalk]
       enable = false
@@ -867,14 +867,14 @@ disableThemeInject = false
       darkTheme = "github-dark"
     # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
     [page.comment.twikoo]
-      enable = false
-      envId = ""
+      enable = true
+      envId = "https://twikoo.knlde.top"
       region = ""
       path = ""
       visitor = true
       commentCount = true
       # FixIt 0.2.17 | CHANGED enable lightgallery support
-      lightgallery = false
+      lightgallery = true
       # FixIt 0.2.17 | NEW enable Katex support
       katex = false
     # FixIt 0.2.14 | NEW Giscus comments config
