@@ -1,12 +1,11 @@
 ---
-abbrlink: ''
 categories:
 - Album
 - Jazz
 - Pop
 comment: true
 date: '2024-06-08T13:56:41+08:00'
-featuredImage: https://cdn.jsdmirror.com//gh/Kindle-deep/picx-images-hosting@master/cover.73tslhoish.jpg
+featuredImage: https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/cover.73tslhoish.jpg
 featuredImagePreview: https://cdn.jsdmirror.com//gh/Kindle-deep/picx-images-hosting@master/cover.73tslhoish.jpg
 slug: 93c11dd
 tags:
@@ -18,9 +17,7 @@ tags:
 title: 新专推荐 - 时隔五年的惊喜
 updated: '2024-08-03T23:51:32.964+08:00'
 ---
-{{< spotify album 37asoWjHlM134Da94j5kAc >}}
 
-## 介绍
 
 ## 引言
 
