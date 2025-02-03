@@ -14,7 +14,7 @@ enableEmoji = true
 enableGitInfo = true
 relativeURLs = false
 buildDrafts = false
-summaryLength = 150
+summaryLength = false
 # ignore some build errors
 ignoreLogs = [
   "error-get-remote-image",

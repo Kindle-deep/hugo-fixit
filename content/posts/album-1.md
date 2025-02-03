@@ -5,8 +5,6 @@ categories:
 - Pop
 comment: true
 date: '2024-06-08T13:56:41+08:00'
-featuredImage: https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/cover.73tslhoish.jpg
-featuredImagePreview: https://cdn.jsdmirror.com//gh/Kindle-deep/picx-images-hosting@master/cover.73tslhoish.jpg
 slug: 93c11dd
 tags:
 - music
@@ -18,7 +16,7 @@ title: 新专推荐 - 时隔五年的惊喜
 updated: '2024-08-03T23:51:32.964+08:00'
 ---
 
-
+{{< spotify album 37asoWjHlM134Da94j5kAc >}}
 ## 引言
 
 2024年5月27日，正值出道26周年纪念日之际，稚名林檎带着新单曲降临，在两天之后，新专《放生会》便发布了。
